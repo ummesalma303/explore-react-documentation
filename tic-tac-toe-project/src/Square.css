@@ -1,8 +1,12 @@
 .parent{
-    border: 2px solid black;
-    padding: 10px;
+    border: 1px solid black;
+    /* height: 200px; */
+    height: 100px;
 }
 .square{
     border: 2px solid black;
     border-radius: 0%;
+    /* background-color: crimson; */
+    height: 50px;
+    width: 50px;
 }

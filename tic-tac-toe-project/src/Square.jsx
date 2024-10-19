@@ -1,9 +1,13 @@
-import Board from './Board'
-export default function Square() {
-    return (
-        <>
-          <h1>This is a Tic Tac Toe</h1>
-          <Board></Board>
-        </>
-    )
+// import Board from './Board'
+import './Square.css'
+import { useState } from 'react'
+import './Square.css'
+export default function Square({value,onSquareClick}) {
+  // const [value,setValue]=useState(null)
+  function handleClick() {
+    // setValue('x')
+  }
+  return <button onClick={onSquareClick} className='square'>{value}</button>
+          
+     
 }
