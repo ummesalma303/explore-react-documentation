@@ -1,0 +1,8 @@
+.parent{
+    border: 2px solid black;
+    padding: 10px;
+}
+.square{
+    border: 2px solid black;
+    border-radius: 0%;
+}
